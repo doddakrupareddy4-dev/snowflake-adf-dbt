@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline copy",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/sourcecontainer/blobs/test/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/dodda/providers/Microsoft.Storage/storageAccounts/krupareddylearn",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
