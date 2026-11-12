@@ -1,0 +1,15 @@
+{
+	"name": "krupareddylearn",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d20b8d36-05b4-4642-9c42-4919d1754231",
+		"tenantId": "068ce3ba-ae28-482a-a8f3-633e4c269b9b"
+	}
+}
