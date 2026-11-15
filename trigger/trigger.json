@@ -2,7 +2,7 @@
 	"name": "trigger",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -14,6 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/sourcecontainer/blobs/sample/",
+			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/krupareddy/providers/Microsoft.Storage/storageAccounts/doddalearn",
 			"events": [
