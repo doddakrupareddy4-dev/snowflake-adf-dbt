@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "krupareddylearn"
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"trigger3_properties_typeProperties_scope": {
+			"value": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/dodda/providers/Microsoft.Storage/storageAccounts/krupareddylearn"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://doddalearn.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/krupareddy/providers/Microsoft.Storage/storageAccounts/doddalearn"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
