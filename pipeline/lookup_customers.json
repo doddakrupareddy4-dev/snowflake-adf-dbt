@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "select * from customers  where customer_id = 1;\n",
+						"sqlReaderQuery": "select * from customers  where customer_id = 1;\nselect * from customers where city ='hyderabad';\nselect * from customers where country = 'india';\nselect count(*) as total_customers from customers;\n",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
