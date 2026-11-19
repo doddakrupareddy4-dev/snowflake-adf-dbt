@@ -2,7 +2,7 @@
 	"name": "ds_src",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage3",
+			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "orders (1).csv",
-				"folderPath": "sample",
+				"fileName": "departments (1).csv",
+				"folderPath": "folder",
 				"fileSystem": "sourcecontainer"
 			},
 			"columnDelimiter": ",",
@@ -41,5 +41,6 @@
 				"type": "String"
 			}
 		]
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }

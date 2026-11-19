@@ -1,0 +1,16 @@
+{
+	"name": "doddalearn",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true,
+			"isExplicitlySet": false
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0919eb2e-ee1b-4f8d-bf44-5e4d53396d27",
+		"tenantId": "068ce3ba-ae28-482a-a8f3-633e4c269b9b"
+	}
+}

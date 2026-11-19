@@ -55,12 +55,14 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_sink1",
+						"referenceName": "ds_sink",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		],
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2026-11-16T11:59:31Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
