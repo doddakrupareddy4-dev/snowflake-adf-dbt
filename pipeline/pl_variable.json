@@ -1,0 +1,28 @@
+{
+	"name": "pl_variable",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "employeeName",
+					"value": "Krupa Reddy"
+				}
+			}
+		],
+		"variables": {
+			"employeeName": {
+				"type": "String",
+				"defaultValue": "unknown"
+			}
+		},
+		"annotations": []
+	}
+}
