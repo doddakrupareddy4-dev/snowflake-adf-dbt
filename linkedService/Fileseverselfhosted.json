@@ -5,9 +5,9 @@
 		"annotations": [],
 		"type": "FileServer",
 		"typeProperties": {
-			"host": "C:\\ADF_Source",
-			"userId": "SRR",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2N2RjOTNiMS04ODI3LTRmNDgtYmIyMy1hOWE2MDg4ZmFiMjIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"host": "C:\\Users\\dodda krupareddy\\OneDrive\\Desktop\\ADF SOURCE",
+			"userId": "SRR\\dodda krupareddy",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxZjUxNzE3NS04ZjUxLTQwNjQtOWYyZi0xNjFiMjU4YTgzNDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "selfhostedintegrationRuntime",
