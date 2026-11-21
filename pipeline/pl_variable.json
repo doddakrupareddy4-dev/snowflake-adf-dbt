@@ -42,7 +42,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "@concat('select * from customer where country = ''',pipeline().parameters.country)",
+							"value": "@concat('select * from customer where country = ''',pipeline().parameters.country,'''')",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",
