@@ -1,0 +1,40 @@
+{
+	"name": "Json_IR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Fileseverselfhosted",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "Employees.json"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Employee_ID": {
+					"type": "integer"
+				},
+				"Employee_Name": {
+					"type": "string"
+				},
+				"Department": {
+					"type": "string"
+				},
+				"Role": {
+					"type": "string"
+				},
+				"Salary": {
+					"type": "integer"
+				},
+				"Joining_Date": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}

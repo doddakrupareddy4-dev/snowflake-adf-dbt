@@ -1,0 +1,19 @@
+{
+	"name": "Json_sink_IR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sampleraw",
+				"fileSystem": "rawcontainer"
+			}
+		},
+		"schema": {}
+	}
+}
