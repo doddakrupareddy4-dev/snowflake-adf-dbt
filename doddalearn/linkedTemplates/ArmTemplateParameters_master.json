@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "doddalearn"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"Fileseverselfhosted_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://doddalearn.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://doddalearn.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://doddalearn.vault.azure.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "dodda-sql-sever-2026.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "salesdb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"Fileseverselfhosted_properties_typeProperties_host": {
+			"value": "C:\\Users\\dodda krupareddy\\OneDrive\\Desktop\\ADF SOURCE"
+		},
+		"Fileseverselfhosted_properties_typeProperties_userId": {
+			"value": "SRR\\dodda krupareddy"
+		},
+		"trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/krupareddy/providers/Microsoft.Storage/storageAccounts/doddalearn"
+		},
+		"trigger3_properties_typeProperties_scope": {
+			"value": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/dodda/providers/Microsoft.Storage/storageAccounts/krupareddylearn"
+		},
+		"trigger4_properties_typeProperties_scope": {
+			"value": "/subscriptions/013b6a1d-d501-4057-a8e1-2ad6dfc7b546/resourceGroups/krupareddy/providers/Microsoft.Storage/storageAccounts/doddalearn"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
