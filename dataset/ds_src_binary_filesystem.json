@@ -1,0 +1,21 @@
+{
+	"name": "ds_src_binary_filesystem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Fileseverselfhosted",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"fileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation"
+			}
+		}
+	}
+}
